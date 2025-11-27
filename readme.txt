@@ -1,0 +1,1 @@
+Add SpotlightCard at the time of SignUp
