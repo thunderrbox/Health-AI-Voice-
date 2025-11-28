@@ -4,12 +4,12 @@ function HistoryList() {
     const [historyList, setHistoryList] = useState([]);
     return( 
         <div>
-            {historyList.length==0?
+            {/* {historyList.length==0?
                 <div>
                     <Image src={} />
                 </div>
                 :<div>List</div>
-            }
+            // } */}
         </div>
     )
 }
