@@ -1,4 +1,5 @@
 "use client";
+import { Button } from "@/components/ui/button";
 import Image from "next/image";
 import React, { useState } from "react";
 
@@ -11,11 +12,13 @@ function HistoryList() {
           <Image
             src={"/medical_assistance.png"}
             alt="empty"
-            width={300}
-            height={300}
+            width={250}
+            height={250}
+            style={{ borderRadius: "10px" }}
           />
-          <h2 className="font-bold text-xl mt-5">No Recent Consultations </h2>
+            <h2 className="font-bold text-xl mt-2">No Recent Consultations</h2>
           <p>It looks like you haven't consulted any doctor yet.</p>
+          <Button>+  Start a Consultation with Doctor</Button>
         </div>
       ) : (
         <div>List</div>

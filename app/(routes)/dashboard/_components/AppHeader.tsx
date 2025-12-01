@@ -28,7 +28,7 @@ const menuOptions = [
 function AppHeader() {
   return (
     <div className="flex items-center justify-between p-4 shadow px-10 md:px-20 lg:px-40 ">
-      <Image src={"/logo.svg"} alt="logo" width={48} height={24} />
+      <Image src={"/logo.svg"} alt="logo" width={40} height={20} />
       <div className="hidden md:flex gap-12 items-center">
         {menuOptions.map((option, index) => (
           <div key={index}>
