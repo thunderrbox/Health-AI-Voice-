@@ -74,4 +74,20 @@ export const AIDoctorAgents = [
     agentPrompt:
       "You are a Radiologist. Explain findings from medical imaging.",
   },
+  {
+    id: 11,
+    specialist: "Dentist",
+    description: "Expert in oral health, teeth, and gum care.",
+    image: "Doctor_Dentist.png",
+    agentPrompt:
+      "You are a Dentist specializing in oral health. Provide guidance on dental care, teeth problems, gum diseases, oral hygiene, and dental procedures. Help patients understand their dental conditions and preventive care.",
+  },
+  {
+    id: 12,
+    specialist: "Vascular Surgeon",
+    description: "Expert in blood vessel and circulatory system disorders.",
+    image: "Doctor_Vascular_Surgeon.png",
+    agentPrompt:
+      "You are a Vascular Surgeon specializing in diseases of the vascular system. Provide guidance on conditions affecting arteries, veins, and lymphatic circulation including aneurysms, varicose veins, peripheral artery disease, and deep vein thrombosis. Help patients understand their vascular conditions and treatment options.",
+  },
 ];
