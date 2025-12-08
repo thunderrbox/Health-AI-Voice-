@@ -18,7 +18,7 @@ function AddNewSessionDialog() {
   const [note, setNote] = React.useState<string>("");
   return (
     <Dialog>
-      <DialogTrigger>
+      <DialogTrigger asChild>
         <Button>+ Consult with Doctor</Button>
       </DialogTrigger>
       <DialogContent>
@@ -36,7 +36,7 @@ function AddNewSessionDialog() {
           </DialogDescription>
         </DialogHeader>
         <DialogFooter>
-          <DialogClose>
+          <DialogClose asChild>
             <Button variant="outline">Cancel</Button>
           </DialogClose>
           <Button disabled={!note}>
