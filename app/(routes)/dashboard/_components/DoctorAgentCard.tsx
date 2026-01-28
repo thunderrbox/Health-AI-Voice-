@@ -2,7 +2,7 @@ import { Button } from "@/components/ui/button";
 import { IconArrowAutofitContent, IconArrowAutofitDownFilled, IconArrowAutofitRight, IconArrowRight } from "@tabler/icons-react";
 import React from "react";
 
-type doctorAgent = {
+export type doctorAgent = {
   id: number;
   specialist: string;
   description: string;
